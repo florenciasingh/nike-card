@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Nike Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Nike Running Shoes</h2>
+            <a href="views/about.html" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/nike-blue.png" class="product" alt="">
+        </div>
+        <div class="box">
+            <h2 class="name">Nike Running Shoes</h2>
+            <a href="views/about.html" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/nike-yellow.png" class="product" alt="">
+        </div>
+        <div class="box">
+            <h2 class="name">Nike Running Shoes</h2>
+            <a href="views/about.html" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/nike-red.png" class="product" alt="">
+        </div>
+    </div>
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+</body>
+</html>
